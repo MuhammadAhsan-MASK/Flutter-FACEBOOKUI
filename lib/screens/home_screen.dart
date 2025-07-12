@@ -13,7 +13,8 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           children: [
             
-            StoryCustomTile(profileImage: '', storyImage: ''), // example
+            StoryCustomTile(profileImage: '', storyImage: ''),
+          
             FacebookCustomTile(
               Profile_Pic_Url: '',
               Profile_border_color: Colors.white,
