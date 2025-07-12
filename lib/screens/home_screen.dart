@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            // You can reuse the UI you posted before for stories + posts
+            
             StoryCustomTile(profileImage: '', storyImage: ''), // example
             FacebookCustomTile(
               Profile_Pic_Url: '',
